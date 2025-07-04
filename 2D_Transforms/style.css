@@ -1,0 +1,42 @@
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.box {
+  width: 150px;
+  height: 100px;
+  margin: 20px auto;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  background: #007bff;
+  transition: 0.5s;
+}
+
+/* Translate (move) */
+.translate:hover {
+  transform: translate(50px, 20px);
+}
+
+/* Rotate */
+.rotate:hover {
+  transform: rotate(20deg);
+}
+
+/* Scale (resize) */
+.scale:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/* Skew */
+.skew:hover {
+  transform: skew(20deg, 10deg);
+}

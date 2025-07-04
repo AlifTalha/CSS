@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+
+.text-box {
+  background: #ffffff;
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.styled-text {
+  text-align: justify;
+  color: #333;
+  text-indent: 40px;
+  line-height: 1.8;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  word-spacing: 6px;
+  text-shadow: 1px 1px 2px #ccc;
+  text-decoration: underline;
+  white-space: normal;
+}
+
+.rtl-text {
+  direction: rtl;
+  text-align: right;
+  color: #00695c;
+  font-weight: bold;
+}
+

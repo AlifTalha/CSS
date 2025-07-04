@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  padding: 40px;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.box {
+  height: 100px;
+  background-color: #3498db;
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+  border: 5px solid #333;
+  margin-bottom: 20px;
+}
+
+/* content-box (default) */
+.box1 {
+  box-sizing: content-box;
+  width: 200px;
+}
+
+/* border-box (includes padding + border) */
+.box2 {
+  box-sizing: border-box;
+  width: 200px;
+}

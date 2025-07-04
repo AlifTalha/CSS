@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  margin: 20px 0 10px;
+}
+
+.box {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* 1. Fixed dimensions */
+.fixed {
+  width: auto;
+  height: 150px;
+}
+
+/* 2. Min and Max Width */
+.min-max {
+  width: 100%;
+  min-width: 850px;
+  max-width: 100px;
+}
+
+/* 3. Responsive dimensions */
+.responsive {
+  width: 10%;
+  height: 100vh; /* 30% of the screen height */
+}
